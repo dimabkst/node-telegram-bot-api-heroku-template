@@ -1,0 +1,22 @@
+{
+  "name": "heroku_node_tg_bot_tenplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "start": "node index.js",
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "node-telegram-bot-api": "^0.58.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
